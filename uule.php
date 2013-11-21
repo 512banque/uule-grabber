@@ -1,5 +1,5 @@
 <?php
- ini_set("memory_limit",-1);
+ini_set("memory_limit",-1);
 
 function uule($city) {
 	$secretkey = array_merge(range('A','Z'), range('a','z'), range('0','9'), array('-', '_'));
@@ -25,6 +25,7 @@ $fp = fopen('file.csv', 'w');
 foreach ($final as $fields) {
     fputcsv($fp, $fields);
 }
+
 
 fclose($fp);
 ?>
