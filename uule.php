@@ -27,6 +27,4 @@ foreach ($final as $fields) {
 }
 
 fclose($fp);
-
 ?>
-</pre>
